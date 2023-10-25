@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 type AuthLayoutProps = {
   children: React.ReactNode;
@@ -12,4 +12,4 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
   )
 }
 
-export default AuthLayout
+export default AuthLayout;

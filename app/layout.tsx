@@ -6,7 +6,9 @@ import ModalProvider from '@/components/modal-provider/ModalProvider'
 import ToasterProvider from '@/components/toaster-provider/ToasterProvider'
 import { CrispProvider } from '@/components/crisp-provider/CrispProvider'
 
-const inter = Inter({ subsets: ['latin'] })
+export const dynamic = 'force-dynamic'
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Genius',
